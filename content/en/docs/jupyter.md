@@ -73,7 +73,7 @@ Alternatively, a Jupyter notebook can be embedded in a page by following one of 
 1. Upload your notebook as a [GitHub Gist](https://gist.github.com) and click *Embed* to copy and paste your hosted notebook into the body of content in Academic
 
 2. [Convert your notebook to HTML](
-https://nbconvert.readthedocs.io/) using `nbconvert --to html <NOTEBOOK_NAME>.ipynb`. Then move the resulting HTML file to your page's folder and embed it into the body of the page's Markdown file using:
+https://nbconvert.readthedocs.io/) using `jupyter nbconvert --to html <NOTEBOOK_NAME>.ipynb`. Then move the resulting HTML file to your page's folder and embed it into the body of the page's Markdown file using:
 
         <iframe
               src="./<CONVERTED_NOTEBOOK_FILENAME>"
