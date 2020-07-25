@@ -18,7 +18,13 @@ You may also add your own comment provider by overriding the comments file with 
 
 To configure the provider, open `config/_default/params.toml`, scroll down to the `[comments]` section, and change `engine` to the provider you wish to use.
 
-Then enter the relevant ID from your provider. For Disqus, copy your `shortname` from your Disqus admin panel.
+For Disqus, copy your `shortname` from your Disqus admin panel and paste it in the Disqus config section:
+
+```toml
+[comments.disqus]
+  shortname = ""  # Paste the shortname from your Disqus dashboard.
+  show_count = true  # Show comment count in page header? (true/false)
+```
 
 ## Choose where users can comment
 

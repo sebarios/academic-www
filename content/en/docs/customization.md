@@ -3,7 +3,6 @@ title: Customization
 date: 2016-04-20
 type: book
 weight: 35
-math: true
 ---
 
 It is possible to carry out many customizations *without* editing any code in the `themes/academic/` folder, making it easier to update the framework in the future.
@@ -85,35 +84,6 @@ We recommend testing that your analytics are working as expected. If they are no
 If you choose to use GA via Google Tag Manager instead (`google_tag_manager`), it will override the direct GA implementation (`google_analytics`) to prevent tracking each user twice.
 
 To integrate other third party analytics services, refer to the **Add Scripts** section.
-
-## Comments
-
-**Academic supports both the extremely popular [Disqus](https://disqus.com) commenting platform and the [Commento](https://commento.io/) fast, Markdown supported, privacy-focused commenting platform.
-
-To configure commenting, open `config/_default/params.toml` in your text editor and scroll down to edit the Comments section:
-
-```toml
-# Comments.
-[comments]
-  # Comment provider:
-  #   0: Disabled
-  #   1: Disqus (https://disqus.com)
-  #   2: Commento (https://commento.io)
-  engine = 0
-
-  # Which page types are commentable?
-  commentable = {page = true, post = true, docs = true}
-
-  # Configuration of Disqus.
-  [comments.disqus]
-    shortname = ""  # Paste the shortname from your Disqus dashboard.
-    show_count = true  # Show comment count in page header? (true/false)
-
-  # Configuration of Commento.
-  [comments.commento]
-    # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
-    url = ""
-```
 
 ## Add scripts (JS)
 

@@ -3,7 +3,6 @@ title: Getting started
 date: 2016-04-20
 type: book
 weight: 25
-math: true
 ---
 
 This quick tutorial will show you how to setup and use Academic.

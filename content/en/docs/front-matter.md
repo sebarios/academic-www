@@ -20,6 +20,8 @@ title: My first blog post
 ---
 ```
 
+If you wish to convert between formats, a handy [online YAML<-->TOML converter](https://toolkit.site/format.html) is available.
+
 ## TOML
 
 The example configuration and publication files are formatted in [TOML](https://learnxinyminutes.com/docs/toml/).

@@ -22,7 +22,7 @@ day_night = true
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in font sets in `themes/academic/data/fonts/`
 #   Browse user installed font sets in `data/fonts/`
-font = ""
+font = "academic"
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
@@ -48,7 +48,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "The website builder for Hugo. Create a beautifully simple site from Markdown in under 10 minutes."
+description = "The free website builder for Hugo. Create a beautifully simple site in under 10 minutes from Markdown, RStudio, or Jupyter."
 
 ############################
 ## Site Features
