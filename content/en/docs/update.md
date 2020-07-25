@@ -1,15 +1,9 @@
-+++
-title = "Update"
-date = 2016-04-20
-
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 40
-
-[menu.docs]
-    parent = "setup"
-    weight = 99
-+++
+---
+title: Update
+date: 2016-04-20
+type: book
+weight: 75
+---
 
 The update process consists of:
 

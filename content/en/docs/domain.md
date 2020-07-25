@@ -1,14 +1,8 @@
 ---
 title: Get Your Own Domain Name
 date: 2017-12-24
-toc: true
-type: docs
+type: book
 weight: 100
-menu:
-  docs:
-    parent: deploy
-    identifier: domain
-    weight: 2
 ---
 
 If you choose a deployment option such as Netlify or Github pages, you will be automatically assigned a free URL for your website. You can further personalize your website with your own domain name.

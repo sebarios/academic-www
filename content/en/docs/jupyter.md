@@ -1,16 +1,10 @@
-+++
-title = "Display Jupyter Notebooks with Academic"
-
-date = 2019-02-12
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 80
-
-linktitle = "Jupyter"
-[menu.docs]
-  parent = "content"
-  weight = 40
-+++
+---
+title: Display Jupyter Notebooks with Academic
+linktitle: Jupyter
+date: 2019-02-12
+type: book
+weight: 80
+---
 
 In this guide, we'll **learn how to blog in Academic using Jupyter Notebooks**.
 

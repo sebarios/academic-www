@@ -1,15 +1,9 @@
-+++
-title = "Front Matter"
-date = 2017-12-03
-
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 50
-
-[menu.docs]
-  parent = "content"
-  weight = 10
-+++
+---
+title: Front Matter
+date: 2017-12-03
+type: book
+weight: 50
+---
 
 Front matter allows page-specific metadata and functionality to be included at the top of a Markdown file.
 

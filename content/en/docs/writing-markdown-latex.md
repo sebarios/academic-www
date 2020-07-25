@@ -1,19 +1,12 @@
-+++
-title = "Writing content with Markdown, LaTeX, and Shortcodes"
-
-date = 2016-04-17
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 70
-
-math = true
-diagram = true
-
-linktitle = "Writing content"
-[menu.docs]
-  parent = "content"
-  weight = 30
-+++
+---
+title: Writing content with Markdown, LaTeX, and Shortcodes
+linktitle: Page Elements
+date: 2016-04-17
+type: book
+weight: 70
+math: true
+diagram: true
+---
 
 Rich content can be written in Academic using **Markdown**, [**LaTeX math**](https://en.wikibooks.org/wiki/LaTeX/Mathematics), and **Shortcodes**. This article gives an overview of the most common formatting options, including features that are exclusive to Academic.<!--more-->
 

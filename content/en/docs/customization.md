@@ -1,17 +1,10 @@
-+++
-title = "Customization"
-
-date = 2016-04-20
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 110
-
-math = true
-
-[menu.docs]
-    parent = "features"
-    weight = 5
-+++
+---
+title: Customization
+date: 2016-04-20
+type: book
+weight: 35
+math: true
+---
 
 It is possible to carry out many customizations *without* editing any code in the `themes/academic/` folder, making it easier to update the framework in the future.
 

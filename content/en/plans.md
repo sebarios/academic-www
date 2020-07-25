@@ -1,6 +1,7 @@
 ---
 title: Plans
 subtitle: Join 500,000+ sites using Academic to power modern web projects.
+editable: false
 ---
 
 {{< plans_table >}}

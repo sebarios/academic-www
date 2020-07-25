@@ -1,9 +1,8 @@
-+++
-title = "Getting started"
-date = 2016-04-20
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-+++
+---
+title: Introduction
+date: 2016-04-20T00:00:00.000Z
+type: book
+---
 
 The Academic framework enables you to easily create a beautifully simple website using the [Hugo](https://gohugo.io) static site generator in under 10 minutes :rocket:
 

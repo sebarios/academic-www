@@ -1,17 +1,10 @@
-+++
-title = "Getting Started With the Page Builder"
-date = 2016-04-19
-aliases = ["/docs/widgets/"]
-
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 30
-
-linktitle = "Build your homepage"
-[menu.docs]
-  parent = "setup"
-  weight = 35
-+++
+---
+title: Getting Started With the Page Builder
+linktitle: Build your homepage
+date: 2016-04-19
+type: book
+weight: 30
+---
 
 **Building beautiful pages is easy with Academic's widget system. No programming is required!**
 

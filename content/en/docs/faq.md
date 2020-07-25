@@ -1,12 +1,10 @@
-+++
-title = "Troubleshooting"
-summary = """Troubleshoot common issues."""
-date = 2016-04-10
-
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 170
-+++
+---
+title: Troubleshooting
+date: 2016-04-10
+type: book
+weight: 170
+summary: Troubleshoot common issues.
+---
 
 Some common questions and answers are listed below.
 

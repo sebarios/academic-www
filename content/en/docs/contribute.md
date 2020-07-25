@@ -1,10 +1,9 @@
-+++
-title = "Feedback & Contributing"
-date = 2016-04-20
-weight = 160
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-+++
+---
+title: Feedback & Contributing
+date: 2016-04-20
+type: book
+weight: 160
+---
 
 Thanks for being interested in contributing! We're so glad you want to help!
 

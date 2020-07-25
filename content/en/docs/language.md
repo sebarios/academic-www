@@ -1,19 +1,9 @@
-+++
-title = "Language and translation"
-
-date = 2016-04-20
-draft = false
-
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 120
-
-math = false
-
-[menu.docs]
-    parent = "features"
-    weight = 10
-+++
+---
+title: Language and translation
+date: 2016-04-20
+type: book
+weight: 120
+---
 
 Both the **interface** and **content** language can be changed to suit your needs.
 

@@ -1,16 +1,9 @@
-+++
-title = "Build an offline site"
-
-date = 2020-04-13
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 101
-
-[menu.docs]
-    parent = "deploy"
-    identifier = "offline"
-    weight = 3
-+++
+---
+title: Build an offline site
+date: 2020-04-13
+type: book
+weight: 101
+---
 
 Wish to build an _offline_ site?
 

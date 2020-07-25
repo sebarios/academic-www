@@ -1,15 +1,9 @@
-+++
-title = "Create a site locally"
-
-date = 2016-04-20
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 20
-
-[menu.docs]
-  parent = "setup"
-  weight = 20
-+++
+---
+title: Create a site locally
+date: 2016-04-20
+type: book
+weight: 20
+---
 
 We highly **recommend** the [**one-minute Github/Gitlab install** using your web browser]({{< relref "install.md" >}}) **prior** to following the steps on this page to download and edit your site on your computer.
 

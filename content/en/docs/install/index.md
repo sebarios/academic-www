@@ -1,15 +1,9 @@
-+++
-title = "Create a site with Github/Gitlab"
-
-date = 2020-06-18
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 10
-
-[menu.docs]
-  parent = "setup"
-  weight = 1
-+++
+---
+title: Create a site with Github/Gitlab
+date: 2020-06-18
+type: book
+weight: 10
+---
 
 {{< figure src="featured.png" title="" >}}
 

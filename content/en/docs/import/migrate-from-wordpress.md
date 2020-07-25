@@ -1,19 +1,10 @@
-+++
-title = "Migrate from Wordpress"
-
-date = 2017-12-03
-lastmod = 2017-12-03
-
-
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 150
-
-linktitle = "From Wordpress"
-[menu.docs]
-  parent = "migrate"
-  weight = 2
-+++
+---
+title: Migrate from Wordpress
+linktitle: From Wordpress
+date: 2017-12-03
+type: book
+weight: 150
+---
 
 To migrate your website from Wordpress to Academic is a two phase process:
 

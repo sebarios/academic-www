@@ -1,15 +1,9 @@
-+++
-title = "Search"
-date = 2018-07-23
-
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 130
-
-[menu.docs]
-  parent = "features"
-  weight = 20
-+++
+---
+title: Add search
+date: 2018-07-23
+type: book
+weight: 130
+---
 
 **Empower your users** to search your website content for keywords so that they can quickly discover relevant content.
 

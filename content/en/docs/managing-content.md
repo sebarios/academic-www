@@ -1,16 +1,9 @@
-+++
-date = 2016-04-18
-title = "Managing content"
-aliases = ["post/managing-content/"]
-
-toc = true  # Show table of contents? true/false
-type = "docs"  # Do not modify.
-weight = 60
-
-[menu.docs]
-  parent = "content"
-  weight = 20
-+++
+---
+title: Managing content
+date: 2016-04-18
+type: book
+weight: 60
+---
 
 This is a brief guide to managing content with the Academic framework. Content can include news/blog posts, publications, projects, talks, widget pages, and much more. After you have read this guide about creating and managing content, you may also be interested to learn about [writing content with Markdown, LaTeX, and Shortcodes]({{< relref "writing-markdown-latex.md" >}}).<!--more-->
 
