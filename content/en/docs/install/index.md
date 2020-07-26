@@ -137,8 +137,7 @@ For inspiration, refer to the [Markdown content](https://github.com/gcushen/hugo
 {{% alert thanks %}}
 **We're full steam ahead on improving Academic, and we need your help!**
 
-- ☕️ [**Donate a coffee**](https://paypal.me/cushen)
-- :heart: [Become a backer on **Patreon**](https://www.patreon.com/join/cushen) or [**GitHub**](https://github.com/sponsors/gcushen) and **unlock rewards** such as stickers
+- :heart: [**Become a backer** on Patreon or GitHub]({{< relref "/plans.md" >}}) and **unlock [these]({{< relref "/plans.md" >}}) rewards and extra features**
 - ⭐️ [**Star** Academic on **GitHub**](https://github.com/gcushen/hugo-academic)
 - {{< icon name="twitter" pack="fab" >}} [**Share your new site** with the Academic community](https://twitter.com/intent/tweet?text=I%27m%20creating%20a%20beautiful%20website%20using%20the%20Academic%20Website%20Builder%20for%20%40GoHugoIO%20by%20%40GeorgeCushen!&amp;hashtags=MadeWithAcademic&amp;url=https://sourcethemes.com/academic/)
 {{% /alert %}}

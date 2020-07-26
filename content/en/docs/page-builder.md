@@ -31,9 +31,8 @@ Academic comes with the following widgets built-in. Additionally, third-party wi
 {{% alert thanks %}}
 **We're full steam ahead on improving Academic, and we need your help!**
 
-- ☕️ [**Donate a coffee**](https://paypal.me/cushen)
-- :heart: [Become a backer on **Patreon** and **unlock rewards**](https://www.patreon.com/cushen) such as stickers
-- 💵 [Become a **sponsor** and **advertise your site**](https://www.patreon.com/join/cushen)
+- :heart: [**Become a backer** on Patreon or GitHub]({{< relref "/plans.md" >}}) and **unlock [these]({{< relref "/plans.md" >}}) rewards and extra features**
+- ⭐️ [**Star** Academic on **GitHub**](https://github.com/gcushen/hugo-academic)
 - :woman_technologist: [**Contribute** code, PR reviews, documentation, color themes, tutorials, etc.](https://github.com/gcushen/hugo-academic/blob/master/.github/contributing.md)
 {{% /alert %}}
 
