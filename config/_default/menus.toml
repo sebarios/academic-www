@@ -11,8 +11,8 @@
 
 [[main]]
   # pre = "<i class=\"fas fa-images pr-1\" style=\"color: #00d1b2;\"></i>"
-  name = "Showcase"
-  url = "#expo"
+  name = "User Stories"
+  url = "user-stories/"
   weight = 10
 
 [[main]]

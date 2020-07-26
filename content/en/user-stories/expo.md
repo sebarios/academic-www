@@ -3,9 +3,9 @@
 widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 50  # Order that this section will appear.
+weight = 10  # Order that this section will appear.
 
-title = "Expo"
+title = "User Stories"
 subtitle = "How people use Academic to design beautiful websites 😍"
 
 [content]
