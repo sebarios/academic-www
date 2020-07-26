@@ -1,7 +1,9 @@
 <ul class="cta-group">
+  {{ if (.Get "cta_text") }}
   <li>
     <a href="{{.Get "cta_link"}}" target="_blank" class="btn btn-primary px-3 py-3">{{ (.Get "cta_text") | emojify }}</a>
   </li>
+  {{ end }}
   {{ if (.Get "cta_alt_text") }}
   <li>
     <a href="{{.Get "cta_alt_link"}}">

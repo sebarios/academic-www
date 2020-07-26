@@ -20,7 +20,7 @@ subtitle = ""
 
 - **Page builder** - Create *anything* with [**widgets**]({{< relref "../docs/page-builder.md" >}}) and [**elements**]({{< relref "../docs/writing-markdown-latex.md" >}})
 - **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**]({{< relref "../docs/writing-markdown-latex.md" >}}), [**Jupyter**]({{< relref "../docs/jupyter.md" >}}), or [**RStudio**]({{< relref "../docs/install.md#install-with-rstudio" >}})
+- **Create content** in [**Markdown**]({{< relref "../docs/writing-markdown-latex.md" >}}), [**Jupyter**]({{< relref "../docs/import/jupyter.md" >}}), or [**RStudio**]({{< relref "../docs/install.md#install-with-rstudio" >}})
 - **Plugin System** - Fully customizable [**color** and **font themes**]({{< relref "/themes.md" >}})
 - **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
 - **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!

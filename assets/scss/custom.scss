@@ -51,6 +51,7 @@ figure img {
   justify-content: left;
   margin-left: calc(-1 * var(--button-group-margin));
   margin-right: calc(-1 * var(--button-group-margin));
+  padding: 0;
 }
 
 .cta-group-center {
@@ -135,4 +136,14 @@ div.alert-thanks {
   .pricing .card:hover .btn {
     opacity: 1;
   }
+}
+
+// Trusted widget
+
+.img-grayscale {
+  filter: grayscale(100%);
+}
+
+.dark .img-grayscale {
+  filter: grayscale(100%) invert(1);
 }

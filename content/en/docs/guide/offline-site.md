@@ -2,7 +2,7 @@
 title: Build an offline site
 date: 2020-04-13
 type: book
-weight: 101
+weight: 140
 ---
 
 Wish to build an _offline_ site?

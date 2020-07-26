@@ -1,9 +1,9 @@
 ---
-title: Display Jupyter Notebooks with Academic
-linktitle: Jupyter
+title: Import Jupyter Notebooks
+linktitle: From Jupyter Notebooks
 date: 2019-02-12
 type: book
-weight: 80
+weight: 135
 ---
 
 In this guide, we'll **learn how to blog in Academic using Jupyter Notebooks**.

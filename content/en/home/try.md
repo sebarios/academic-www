@@ -9,3 +9,5 @@ subtitle = "Deploy a site in 60 seconds."
 +++
 
 {{% cta cta_link="./docs/install/" cta_text="Get started in seconds :rocket:" cta_alt_link="https://spectrum.chat/academic" cta_alt_text="Questions?" %}}
+
+This website was built with **Academic**.
