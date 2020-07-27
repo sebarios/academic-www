@@ -4,7 +4,7 @@ headless: true
 active: true
 weight: 10
 
-title: Freedom to Create the Site You Want
+title: Freedom to Create any Site You Want
 subtitle: Whilst owning your data
 ---
 

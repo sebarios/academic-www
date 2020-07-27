@@ -147,3 +147,11 @@ div.alert-thanks {
 .dark .img-grayscale {
   filter: grayscale(100%) invert(1);
 }
+
+// Tweets
+
+.tweets.card-columns {
+  @include media-breakpoint-up(lg) {
+    column-count: 2;
+  }
+}
