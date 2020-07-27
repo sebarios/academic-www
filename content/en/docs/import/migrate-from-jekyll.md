@@ -3,7 +3,6 @@ title: Migrate from Jekyll
 linktitle: From Jekyll
 date: 2014-03-10
 type: book
-weight: 140
 ---
 
 Here are a few tips for migrating an existing website from Jekyll to Hugo. These tips can be applied in conjunction with following Hugo Academic's [getting started guide]({{< relref "get-started.md" >}}).

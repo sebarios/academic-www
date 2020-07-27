@@ -2,7 +2,6 @@
 title: Add search
 date: 2018-07-23
 type: book
-weight: 130
 ---
 
 **Empower your users** to search your website content for keywords so that they can quickly discover relevant content.

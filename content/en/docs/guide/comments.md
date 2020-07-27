@@ -2,7 +2,6 @@
 title: Add comments
 date: 2020-07-24
 type: book
-weight: 129
 ---
 
 Wish to empower users to comment on your pages?

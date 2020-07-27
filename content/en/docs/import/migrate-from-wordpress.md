@@ -3,7 +3,6 @@ title: Migrate from Wordpress
 linktitle: From Wordpress
 date: 2017-12-03
 type: book
-weight: 150
 ---
 
 To migrate your website from Wordpress to Academic is a two phase process:
