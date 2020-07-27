@@ -64,27 +64,6 @@ Note that the icon might also be referred to as a _favicon_.
 Save your desktop and mobile icons as square PNG images named `icon-32.png` (32x32 pixels), `icon-192.png` (192x192 pixels), and `icon-512.png` (512x512 pixels) respectively. Place them in your root `static/img/` folder.
 {{% /alert %}}
 
-## Analytics
-
-If you wish to use [Google Analytics](https://analytics.google.com) or [Google Tag Manager](https://tagmanager.google.com), include your associated tracking code (e.g. `UA-12345678-9`):
-
-```toml
-############################
-## Marketing
-############################
-[marketing]
-  google_analytics = ""
-  google_tag_manager = ""
-```
-
-GA only tracks users on your live _production_ website. Hugo's default environments are `development` with the `hugo serve` command and `production` with the `hugo` command. You can explicitly set the environment to production with `HUGO_ENV` or Hugo's `--environment` [option](https://gohugo.io/commands/hugo_env/#readout). If you deploy with Netlify, check that your Netlify settings in `netlify.toml` are similar to the [latest Netlify settings in the _Academic Kickstart_ template](https://github.com/sourcethemes/academic-kickstart/blob/master/netlify.toml).
-
-We recommend testing that your analytics are working as expected. If they are not, check that your production environment is as described above and check that your URL in your GA admin panel matches your site's URL. Furthermore, GA provide a troubleshooting guide to help with any issues.
-
-If you choose to use GA via Google Tag Manager instead (`google_tag_manager`), it will override the direct GA implementation (`google_analytics`) to prevent tracking each user twice.
-
-To integrate other third party analytics services, refer to the **Add Scripts** section.
-
 ## Add scripts (JS)
 
 To add a **third party script**, create a file named `custom_js.html` in a `layouts/partials/` folder at the root of your website (not in the `themes` folder). Any HTML code added to this file will be included within your website's footer.
