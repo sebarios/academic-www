@@ -12,31 +12,31 @@
 [[main]]
   pre = "<i class=\"fas fa-images pr-1\" style=\"color: #00d1b2;\"></i>"
   name = "展示柜"
-  url = "user-stories/"
+  url = "../user-stories/"
   weight = 10
 
 [[main]]
-  pre = "<i class=\"fas fa-donate pr-1\" style=\"color: #00d1b2;\"></i>"
+  pre = "<i class=\"fas fa-heart pr-1\" style=\"color: #00d1b2;\"></i>"
   name = "参与贡献"
-  url = "plans/"
+  url = "../plans/"
   weight = 20
 
 [[main]]
   pre = "<i class=\"fas fa-book pr-1\" style=\"color: #00d1b2;\"></i>"
   name = "文档"
-  url = "docs/"
+  url = "../docs/"
   weight = 30
 
 [[main]]
   pre = "<i class=\"fas fa-brush pr-1\" style=\"color: #00d1b2;\"></i>"
   name = "主题"
-  url = "themes/"
+  url = "../themes/"
   weight = 40
 
 [[main]]
   pre = "<i class=\"fas fa-newspaper pr-1\" style=\"color: #00d1b2;\"></i>"
   name = "更新"
-  url = "updates/"
+  url = "../updates/"
   weight = 50
 
 # Right menu
@@ -61,7 +61,7 @@
 
 [[main_right]]
   pre = "<span class=\"btn btn-primary d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3\">"
-  name = "快速开始"
+  name = "开始创建"
   post = "</span>"
-  url = "docs/install/"
+  url = "../docs/install/"
   weight = 30

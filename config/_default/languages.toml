@@ -6,14 +6,9 @@
   languageCode = "en-us"
   contentDir = "content/en"
 
-#[zh]
-#  languageCode = "zh-Hans"
-#  contentDir = "content/zh"
-
-#  title = "Chinese website title..."
-#  [zh.params]
-#    description = "Site description in Chinese..."
-#  [[zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[zh]
+  languageCode = "zh-Hans"
+  contentDir = "content/zh"
+  title = "Academic"
+  [zh.params]
+    description = "基于Hugo的开源网站搭建器。从Markdown(或Jupyter/RStudio)起步创建你梦想网站的最佳方式。用小部件轻松搭建一切。"
