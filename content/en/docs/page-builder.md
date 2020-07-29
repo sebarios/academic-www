@@ -154,6 +154,7 @@ Icon pack "ai" includes the following **academic** icons:
 
 - cv, google-scholar, arxiv, orcid, researchgate, mendeley
 - [See all icons](https://jpswalsh.github.io/academicons/)
+- To enable the academic icon pack in **v5+**, set `ai = true` under `[icon.pack]` in `params.toml`
 
 Icon pack "emoji" gives you the ability to use **emojis as icons**
 
