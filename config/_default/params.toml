@@ -143,6 +143,9 @@ address_format = "en-us"
 ## Advanced
 ############################
 
+# Note: changing this will break the image links in the Readme files
+media_dir = "img"
+
 # Main menu alignment (l = left, c = center, r = right) and logo options.
 main_menu = {align = "l", show_logo = true, highlight_active_link = true, show_language = false}
 
