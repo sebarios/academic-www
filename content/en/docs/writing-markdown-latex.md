@@ -1,9 +1,9 @@
 ---
-title: Writing content with Markdown, LaTeX, and Shortcodes
+title: "Page Elements: Writing content with Markdown, LaTeX, and Shortcodes"
 linktitle: Page Elements
 date: 2016-04-17
 type: book
-weight: 70
+weight: 50
 math: true
 diagram: true
 ---
@@ -16,21 +16,25 @@ Rich content can be written in Academic using **Markdown**, [**LaTeX math**](htt
 
 ## Sub-headings
 
-    ## Heading 2
-    ### Heading 3
-    #### Heading 4
-    ##### Heading 5
-    ###### Heading 6
+```markdown
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+```
 
 ## Emphasis
 
-    Italics with _underscores_.
+```markdown
+Italics with _underscores_.
 
-    Bold with **asterisks**.
+Bold with **asterisks**.
 
-    Combined emphasis with **asterisks and _underscores_**.
+Combined emphasis with **asterisks and _underscores_**.
 
-    Strikethrough with ~~two tildes~~.
+Strikethrough with ~~two tildes~~.
+```
 
 ## Lists
 ### Ordered
@@ -38,10 +42,16 @@ Rich content can be written in Academic using **Markdown**, [**LaTeX math**](htt
     1. First item
     2. Another item
 
+1. First item
+2. Another item
+
 ### Unordered 
 
     * First item
     * Another item
+
+* First item
+* Another item
 
 ### Todo
 
@@ -61,25 +71,29 @@ renders as
 
 ## Images
 
-Images may be added to a page by either placing them in your `static/img/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then referencing them using one of the following notations:
+Images may be added to a page by either placing them in your `static/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then referencing them using one of the following notations.
 
-A figure from your `static/img/` media library:
+Figures may be [**cross-referenced**](#links).
 
-    {{</* figure library="true" src="image.jpg" title="A caption" lightbox="true" */>}}
+{{% alert warning %}}
+Prior to Academic v5, the media library is located at `static/img/`.
+{{% /alert %}}
+
+A figure from your `static/media/` media library:
+
+    {{</* figure library="true" src="image.jpg" title="A caption" */>}}
 
 A figure within a [page's folder](https://gohugo.io/content-management/page-bundles/) (e.g. `content/post/hello/`) :
 
-    {{</* figure src="image.jpg" title="A caption" lightbox="true" */>}}
+    {{</* figure src="image.jpg" title="A caption" */>}}
 
 A numbered figure with caption:
 
-    {{</* figure src="image.jpg" title="A caption" numbered="true" lightbox="true" */>}}
+    {{</* figure src="image.jpg" title="A caption" numbered="true" */>}}
 
-A general image:
+Or you can use the more portable Markdown syntax for displaying an image from the page's folder, however it has limited options compared with the Figure shortcode above:
 
-    ![alternative text for search engines](/img/image.jpg)
-
-Figures may be [cross-referenced](#links).
+    ![alternative text for search engines](image.jpg)
 
 ## Image gallery
 
@@ -98,9 +112,13 @@ gallery_item:
   caption: Write your image caption here
 ```
 
-**Alternatively, create an image gallery with images from the internet or your `static/img/` media library:**
+**Alternatively, create an image gallery with images from the internet or your `static/media/` media library:**
 
-1. Add gallery images to within your `static/img/` media library folder
+{{% alert warning %}}
+Prior to Academic v5, the media library is located at `static/img/`.
+{{% /alert %}}
+
+1. Add gallery images to within your `static/media/` media library folder
 2. Reference your images at the end of the front matter of a content file in the form:
 
         gallery_item:
@@ -117,17 +135,41 @@ gallery_item:
 For *docs* pages (i.e. pages using the courses and documentation layout), gallery images must be placed in the `static/` media library using the second approach (due to limitations of Hugo).
 {{% /alert %}}
 
+## Cite
+
+To cite a page or publication, you can use the _cite_ shortcode, referencing a folder and page name that you created:
+
+    {{</* cite page="/publication/preprint" view="4" */>}}
+    
+where _view_ corresponds with the [available 1-4 views]({{< relref "page-builder.md" >}}).
+
+For example, `4` corresponds to the traditional academic citation format configured by the `citation_style` setting in `params.toml`.
+
+**The audio shortcode requires Academic v5+.**
+
+## Audio
+
+You can add a podcast or music to a page to placing the MP3 file in the page's folder and then referencing the audio file using the _audio_ shortcode:
+
+    {{</* audio src="markvard.mp3" */>}}
+
+**The audio shortcode requires Academic v5+.**
+
 ## Videos
 
 The following kinds of video may be added to a page.
 
 **Local video file**
 
-Videos may be added to a page by either placing them in your `static/img/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then referencing them using one of the following notations.
+Videos may be added to a page by either placing them in your `static/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then referencing them using one of the following notations.
 
-A video from your `static/img/` media library:
+{{% alert warning %}}
+Prior to Academic v5, the media library is located at `static/img/`.
+{{% /alert %}}
 
-    {{</* video library="1" src="my_video.mp4" controls="yes" */>}}
+A video from your `static/media/` media library:
+
+    {{</* video library="true" src="my_video.mp4" controls="yes" */>}}
     
 A video within a [page's folder](https://gohugo.io/content-management/page-bundles/) (e.g. `content/post/hello/`):
 
@@ -391,7 +433,7 @@ The `highlight_style` option is only recognized when set in `params.toml`. Setti
 
 ## Jupyter Notebook
 
-[**View the guide to blogging with Jupyter Notebooks**]({{< relref "jupyter.md" >}}).
+[**View the guide to blogging with Jupyter Notebooks**]({{< relref "./import/jupyter.md" >}}).
 
 ## Twitter tweet
 
