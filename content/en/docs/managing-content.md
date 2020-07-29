@@ -1,8 +1,8 @@
 ---
-title: Managing content
+title: Create content
 date: 2016-04-18
 type: book
-weight: 60
+weight: 35
 ---
 
 Academic lets you create a variety of different content types. Content can include widget pages, blog posts, publications, online courses, podcasts, videos, Markdown slides, notebooks, documentation, projects, events, and much more.
@@ -373,15 +373,111 @@ To **add or remove publication types** in Academic v4.4+,
 3. Edit `data/publication_types.toml`to add your own types
    - Each type in the list should be the key of a translation entry in your language pack(s) rather than the actual text of the publication type
 
-## Create a course or documentation
+## Create a course or book
 
-The *docs* feature is designed for **knowledge sharing**. Use cases include **online courses, tutorials, software documentation, and knowledge bases**.
+The *book* feature is designed for **knowledge sharing**. Use cases include **online courses, books, notebooks, tutorials, software documentation, and knowledge bases**.
 
-[This website is using](https://github.com/sourcethemes/academic-www) the *docs* feature for the purpose of documenting Academic. Also, there is a [online course demo](https://academic-demo.netlify.app/courses/).
+[This website is using](https://github.com/sourcethemes/academic-www) the *book* layout for the purpose of documenting Academic.
 
-Refer to the [example course](https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/courses) at `themes/academic/exampleSite/content/courses/` to learn how to get started.
+{{< alert info >}}
+The _book_ content type is new in Academic **v5**.
 
-Continue reading below to learn more about creating courses, tutorials, and documentation using the *docs* feature.
+For earlier versions of Academic, the [_docs_ type](#create-a-course-or-book-in-v4) can be used.
+{{< /alert >}}
+
+<!--
+Whilst reading this guide, you may find it helpful to follow the [file structure](https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/courses) for the [online course demo](https://academic-demo.netlify.app/courses/) which uses the _book_ layout.
+-->
+
+Continue reading below to learn more about creating multi-page content using the *book* feature.
+
+### Organization
+
+The *book* feature can be used to create courses, tutorials, and documentation in the following file structure:
+
+```
+content/course
+├── _index.md         # Overview
+└── intro             # Chapter folder
+    ├── _index.md     # Chapter metadata including chapter title
+    ├── example1.md   # A page
+    └── example2.md   # Another page
+└── tutorial          # Another chapter
+    ├── _index.md
+    ├── intro.md
+    └── ...
+```
+
+File and folder names should use hyphens instead of spaces, for example creating a course folder named `my-course`.
+
+The `course` folder in the example above may be renamed. For example, we can rename it to `book` for writing a book, `docs` for software/project documentation, `notes` for creating a notebook, or `tutorials` for creating multi-page "how to" guides.
+
+### Metadata
+
+Let's edit a file using the _book_ layout, for example `_index.md` within your new folder (e.g. `content/course/example/_index.md`), in order to specify a name and summary for your new _book_ content.
+
+```yaml
+# Page title
+title: An Example Course
+
+# Title for the menu link if you wish to use a shorter link title, otherwise remove this option.
+linktitle: Course
+
+# Page summary for search engines.
+summary: Blah, blah, blah...
+
+# Date page published
+date: 2018-09-09
+
+# Academic page type (do not modify).
+type: book
+
+# Position of this page in the menu. Remove this option to sort alphabetically.
+weight: 1
+```
+
+### Menus
+
+You can order your book menus in three ways:
+
+- By title ascending
+- By title descending
+- By manual ordering using `weight: 10` in the front matter of pages, where the number defines the order
+  - recommend using weights that are increments of 10 so that it's easy to reorder a page in the future without needing to change the weight in all the other pages
+
+### Pages
+
+You can create as many pages as your need. Each page should have a `title`, and a page `type` of `book`.
+
+`title` is the page title which appears in page header, whereas `linktitle` is the label for link to this page. If you remove `linktitle`, the menu link will display the page title.
+
+To remove the right sidebar for table of contents (generated from the headings on your page), set `toc` to `false`.
+
+To show a prev/next pager at the bottom of each docs section page, enable `docs_section_pager` in `params.toml` and then set the order of the pager if you wish by defining a `weight` for each page.
+
+An example page is as follows:
+
+```yaml
+---
+title: Example Page 1
+date: 2019-05-05
+type: book
+---
+
+Content...
+```
+
+To list child pages on book chapter pages, you can use the `{{</* list_children */>}}` shortcode.
+
+## Create a course or book (in v4)
+
+The legacy *docs* feature is designed for **knowledge sharing**. Use cases include **online courses, tutorials, software documentation, and knowledge bases**.
+
+{{< alert warning >}}
+We recommend the new _book_ content type in the section above for creating new multi-page content.
+{{< /alert >}}
+
+For users with existing *docs* content, continue reading below to learn more.
 
 ### Organization
 
@@ -400,7 +496,7 @@ content/courses
     └── ...
 ```
 
-File and folder names should not contain spaces (use hyphens instead).
+File and folder names should use hyphens instead of spaces, for example creating a course folder named `my-course`.
 
 ### Renaming
 
@@ -426,7 +522,7 @@ Or, if you are creating a software documentation site, you can rename the `cours
   weight = 50
 ```
 
-### Listing courses and documentation
+### Listing courses and books
 
 The `content/courses/_index.md` file automatically lists any course, tutorial, or documentation folders within the `content/courses/` folder. Open the file to edit the page title.
 
@@ -440,7 +536,7 @@ header:
   image: ""
 ```
 
-### Course and documentation metadata
+### Course and book metadata
 
 Edit the `_index.md` within your course/documentation folder (e.g. `content/courses/example/_index.md`) in order to specify a name and summary for your course/documentation.
 
@@ -506,6 +602,10 @@ weight: 1
 
 Content...
 ```
+
+## Create a Jupyter notebook
+
+See the [Jupyter]({{< relref "./import/jupyter.md" >}}) guide.
 
 ## Manage archive pages
 

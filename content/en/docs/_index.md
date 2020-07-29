@@ -1,6 +1,6 @@
 ---
 title: Introduction
-date: 2016-04-20T00:00:00.000Z
+date: 2016-04-20
 type: book
 ---
 
@@ -19,7 +19,7 @@ To get the most out of Academic, start by reviewing a few introductory topics:
 - [Add content]({{< relref "managing-content.md" >}}) to your homepage such as blog posts, projects, talks, publications, slides, and much more!
 - [Write and format content]({{< relref "writing-markdown-latex.md" >}}) with Markdown, math, code highlighting, galleries, third-party integrations, and much more!
 - [Join the Academic community](https://spectrum.chat/academic) or [follow us on Twitter](https://twitter.com/source_themes)
-- [Support Academic](../#support) or [contribute]({{< relref "contribute.md" >}})
+- [Support Academic]({{< relref "../plans.md" >}}) or [contribute]({{< relref "contribute.md" >}})
 
 ## A note on versions
 
