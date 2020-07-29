@@ -141,15 +141,20 @@ To cite a page or publication, you can use the _cite_ shortcode, referencing a f
 
     {{</* cite page="/publication/preprint" view="4" */>}}
     
-where _view_ corresponds with the [available 1-4 views]({{< relref "page-builder.md" >}}).
+where _view_ corresponds to one of the available listing views used throughout Academic:
+ 
+1. Stream
+2. Compact
+3. Card
+4. Traditional academic citation, configured by the `citation_style` setting in `params.toml`
+ 
+If you don't specify a view, it will default to the _compact_ view.
 
-For example, `4` corresponds to the traditional academic citation format configured by the `citation_style` setting in `params.toml`.
-
-**The audio shortcode requires Academic v5+.**
+**The cite shortcode requires Academic v5+.**
 
 ## Audio
 
-You can add a podcast or music to a page to placing the MP3 file in the page's folder and then referencing the audio file using the _audio_ shortcode:
+You can add a podcast or music to a page by placing the MP3 file in the page's folder and then referencing the audio file using the _audio_ shortcode:
 
     {{</* audio src="markvard.mp3" */>}}
 
