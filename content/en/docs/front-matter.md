@@ -2,7 +2,7 @@
 title: Front Matter
 date: 2017-12-03
 type: book
-weight: 50
+weight: 70
 ---
 
 Front matter allows page-specific metadata and functionality to be included at the top of a Markdown file.
