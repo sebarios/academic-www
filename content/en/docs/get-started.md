@@ -207,4 +207,4 @@ Publish your site to the world by following the [deployment steps]({{< relref "d
 
 **Has Academic helped you?**
 
-**Academic is a free open source platform. [Please kindly consider supporting further development.]({{< relref "/#support" >}})**
+**Academic is a free open source platform. [Please kindly consider supporting further development.]({{< relref "/plans.md" >}})**
